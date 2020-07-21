@@ -7,4 +7,3 @@ container.registerSingleton<IStorageProvider>(
   "StorageProvider",
   DiskStorageProvider
 );
-

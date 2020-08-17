@@ -1,12 +1,8 @@
-import path from "path";
-import fs from "fs";
-
 import IUsersRepository from "../repositories/IUsersRepository";
 import IStorageProvider from "@shared/container/providers/StorageProvider/models/IStorageProvider";
 import AppError from "@shared/errors/AppError";
 
 import User from "../infra/typeorm/entities/User";
-import uploadConfig from "@config/upload";
 import { injectable, inject } from "tsyringe";
 
 interface IRequest {

@@ -69,3 +69,13 @@
 - O usuário não pode agendar em um horário ja ocupado;
 - O usuário não pode agendar em um horário que já passou;
 - O usuário não pode agendar serviços consigo mesmo;
+
+# Tecnologias usadas 🥊
+
+- NodeJS(express) --template TypeScript
+- Postgres
+- TypeORM
+- Redis
+- MongoDB
+- AWS
+- Jest
